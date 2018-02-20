@@ -1,0 +1,128 @@
+/*Container the content is going to be nested in*/
+.container {
+  width: 1080px;
+  background-color: #f3d0cc;
+  margin: 0 auto;
+}
+/*Padding to the header*/
+.divy {
+  padding: 10px;
+}
+/*Provides styling for the nav bar*/
+#block2 {
+  height: 70px;
+  background-color: #b0d8da;
+  color: aliceblue;
+}
+/* Element divs are nested in */
+.bgcolor {
+  background-color: #3c152b;
+  height: 100%;
+}
+/* nests the first two columns giving them a width of 2/3*/
+.col1main {
+  float: left;
+  width: 67%;
+  background-color: #b79028;
+  height: 100%;
+}
+/*Styling for col1 the first of the two columns in col1main */
+.col1 {
+  background-color: #902551;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+/* Styling for the second column and col 2/2 in col1main*/
+.col2 {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+/*Styling for the third column not nested within anything. \*/
+.col3 {
+  float: right;
+  width: 33%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*Styles the li elements of the navbar */
+.navbar li {
+  display: inline-block;
+  height: 50px;
+  line-height: 45px;
+  font-size: 18px;
+  border: 1.5px dotted #b79028;
+  min-width: 90px;
+}
+/* Styles the a of the navbar */
+.navbar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+/*Styling when you hover over each navbar a element */
+.navbar li:hover  {
+  background-color: #f3d0cc;
+  color: white;
+}
+/* styles the ul of navbar */
+.navbar ul {
+  background-color: #b0d8da;
+  list-style: none;
+  text-align: center;
+  padding-top: 7px;
+  margin: 0;
+}
+
+#block1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#block7 span i, #block3 span i{
+  color:black;
+}
+
+#block7 span i:hover, #block3 span i:hover{
+  color: #b0d8da;
+}
+
+#block7 span {
+  font-weight: bold;
+  color: #b79028;
+}
+#block7 .twitter {
+  padding-left: 172px;
+}
+#block7 .linkedin {
+  padding-left: 125px;
+}
+#block7 .github {
+  padding-left: 150px;
+}
+
+#block3 h2, #block4 h2, #block5 h2 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0px;
+  color: #b0d8da;
+  text-transform: uppercase;
+}
+#block3 p, #block4 p, #block5 p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#b0d8da;
+}
+#block3 span i{
+  padding-left: 3px;
+}
+#block5 i {
+  color: red;
+}
+#block5 i:hover {
+  color:#b0d8da;
+}
